@@ -1,0 +1,107 @@
+[
+    {
+      "Area": "ASIA-PACIFIC",
+      "Country": "CHINA",
+      "In_operation": 37848
+    },
+    {
+      "Area": "EUROPE",
+      "Country": "SPAIN",
+      "In_operation": 3487
+    },
+    {
+      "Area": "ASIA-PACIFIC",
+      "Country": "JAPAN (SHINKANSEN SYSTEM)",
+      "In_operation": 3041
+    },
+    {
+      "Area": "EUROPE",
+      "Country": "FRANCE",
+      "In_operation": 2735
+    },
+    {
+      "Area": "EUROPE",
+      "Country": "GERMANY",
+      "In_operation": 1571
+    },
+    {
+      "Area": "EUROPE",
+      "Country": "FINLAND",
+      "In_operation": 1120
+    },
+    {
+      "Area": "EUROPE",
+      "Country": "ITALY",
+      "In_operation": 921
+    },
+    {
+      "Area": "ASIA-PACIFIC",
+      "Country": "SOUTH KOREA",
+      "In_operation": 893
+    },
+    {
+      "Area": "EUROPE",
+      "Country": "SWEDEN",
+      "In_operation": 860
+    },
+    {
+      "Area": "NORTH AMERICA",
+      "Country": "USA",
+      "In_operation": 735
+    },
+    {
+      "Area": "MIDDLE EAST",
+      "Country": "TURKEY",
+      "In_operation": 724
+    },
+    {
+      "Area": "MIDDLE EAST",
+      "Country": "SAUDI ARABIA",
+      "In_operation": 449
+    },
+    {
+      "Area": "ASIA-PACIFIC",
+      "Country": "TAIWAN",
+      "In_operation": 345
+    },
+    {
+      "Area": "EUROPE",
+      "Country": "AUSTRIA",
+      "In_operation": 254
+    },
+    {
+      "Area": "EUROPE",
+      "Country": "POLAND",
+      "In_operation": 224
+    },
+    {
+      "Area": "EUROPE",
+      "Country": "BELGIUM",
+      "In_operation": 209
+    },
+    {
+      "Area": "AFRICA",
+      "Country": "MOROCCO",
+      "In_operation": 186
+    },
+    {
+      "Area": "EUROPE",
+      "Country": "SWITZERLAND",
+      "In_operation": 178
+    },
+    {
+      "Area": "EUROPE",
+      "Country": "UNITED KINGDOM",
+      "In_operation": 113
+    },
+    {
+      "Area": "EUROPE",
+      "Country": "THE NETHERLANDS",
+      "In_operation": 90
+    },
+    {
+      "Area": "EUROPE",
+      "Country": "DENMARK",
+      "In_operation": 56
+    }
+]

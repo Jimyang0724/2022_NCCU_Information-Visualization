@@ -1,0 +1,75 @@
+rect {
+    fill-opacity: 0.8;
+}
+
+rect:hover {
+    fill-opacity: 1;
+}
+
+body:before {
+    height: 150%;
+    content: '';
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(7.5px);
+    background-image: url('../img/World_map.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    border-radius: 25px;
+    background-color: rgba(201, 201, 201, 0.596);
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#chart,
+#img {
+    padding: 10px;
+}
+
+img {
+    text-align: center;
+    width: 500px;
+}
+
+svg,
+img {
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+}
+
+text {
+    font-size: 12px;
+}
+
+p {
+    line-height: 26px;
+}
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content {
+    position: relative;
+    top: 50%;
+    width: 65%;
+    transform: translateY(-50%);
+}
+
+/* #canvas3 {
+    width: 500px;
+    margin: 0px;
+} */
