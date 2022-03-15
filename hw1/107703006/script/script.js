@@ -196,7 +196,7 @@ let update = (data) => {
         .attr("width", x.bandwidth())
         .attr("x", d => x(d.Country))
 
-    rect.select('title').text(d => `${d.Country}, ${d.In_operation}KM`);
+    rect.select('title').text(d => `${d.Area}, ${d.Country}, ${d.In_operation}KM`);
 }
 
 svg.append('g').attr('class', 'axis')
