@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>107703006_楊永靖_HW1</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="./src/sunBurstChart.js"></script>
+    <link rel='stylesheet' href='./css/main.css' type='text/css' media='all'>
+</head>
+
+<body>
+    <section>
+        <div class="col-12">
+            <h1>電視動畫類型統計 (2000~2020)</h1>
+        </div>
+        <div align="center">
+            <div class="chart">
+                <div id="partitionSVG"></div>
+            </div>
+            <!-- style="width: 80vh;" viewBox="0 0 500 500" -->
+        
+            <div class="container">
+                <div class="content">
+                    <div align="left">
+                        <div class="row">
+                            <p>
+                                <br>
+                                　　這份資料蒐集了 MyAnimeList 網站自1960年代至2021年間的所有動畫資料，
+                                包含了TV動畫、動畫電影、OVA、ONA、MV和Special等等，
+                                幾乎每筆都詳細的資訊如名稱、播放季度、集數等。
+                                由於資料量龐大，多達數萬筆，
+                                所以這次的作業僅使用2000到2020年間播映的電視動畫作呈現，
+                                不採計2021的原因為這些資料為2021年中統計，因此2021年的資料並不是很完整。<br>
+                                　　將游標懸浮在圖上可以顯示詳細資料，點擊有子集的區域則會將該區放大至全圖，
+                                點擊中間空白處可以回到上一個階層。<br>
+                                　　這次作業主要是想探討日本動畫在近20年哪些主題佔了多數，
+                                由視覺畫呈現的結果發現主要是喜劇和動作佔了多數，
+                                另外在第二個階層可以發現2010後的動畫明顯要比2010前多了許多
+                                ，也許是因為科技的發展吧。<br>
+                            </p>
+                            <p>
+                                參考資料：<br>
+                                <a href="https://github.com/Hernan4444/MyAnimeList-Database">MyAnimeList Database 2020</a><br>
+                                背景圖片來源：<br>
+                                <a href="hhttps://books.rakuten.co.jp/e-book/article/2020/04/spyfamily/">楽天ブックス</a><br>
+                                <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>

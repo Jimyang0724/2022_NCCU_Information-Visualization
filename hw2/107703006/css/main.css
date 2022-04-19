@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+}
+.chart {
+    height: 80vh;
+    width: 50vw;
+}
+
+body:before {
+    height: 150%;
+    content: '';
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-filter: blur(7.5px);
+    background-image: url('../img/bg1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    border-radius: 25px;
+    background-color: rgba(201, 201, 201, 0.8);
+    width: 40vw;
+}
+
+h1 {
+    font-family: Arial;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 40px;
+}
+
+p {
+    line-height: 26px;
+    font-family: Arial;
+}
+
+#chart,
+#img {
+    padding: 10px;
+}
+
+img {
+    text-align: center;
+    width: 500px;
+}
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content {
+    width: 85%;
+    margin-top: 100px;
+}
+
+.tip {
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: normal;
+    text-align: left;
+    color: #efe1a3;
+    background: #1f1f4b;
+    position: absolute;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    pointer-events: none;
+}
