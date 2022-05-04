@@ -85,20 +85,15 @@
     justify-content: center;
   }
 
-  #text {
-    display: flex;
-    justify-content: center;
-  }
-  
   #scale {
     display: flex;
     justify-content: center;
-    white-space: nowrap;
+    margin-left: 900px;
   }
 
   #compare { text-align: center; }
-  #sample { display:inline; }
-  #homework { display:inline; }
+  #sample { display: inline; }
+  #homework { display: inline; }
 
   .square {
     width: 10px;
@@ -123,7 +118,9 @@
     <div id="compare">
         <div id="sample"></div>
         <div id="homework">
-            <div id="chart"></div>
+            <div id="chart">
+                <img src="screenshot_1.png">
+            </div>
             <div id="scale">
                 <div>Population：</div>
                 <div id="1" class="square" style="background-color: rgb(255, 255, 212);"></div>
@@ -140,9 +137,8 @@
         </div>
     </div>
     <div id="text">
-        <h4>設計選擇與過程考量</h4>
-        <br>
-        <p></p>
+        <h4 style="display: flex;justify-content: center;">設計選擇與過程考量</h4>
+        <p style="display: flex;justify-content: center;">原圖僅能看出從哪個地區的近外移入個案較多，像是東南亞和美國比較多之類的，但是一個國家若個案過多的話會蓋到其他國家的數據，所以改良了使用cdc在本土病例的方式來呈現境外移入的個案數。</p>
     </div>
 
 <script>
