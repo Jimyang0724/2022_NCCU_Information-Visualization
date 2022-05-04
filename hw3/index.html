@@ -74,6 +74,39 @@
     .details{
       color:white;
     }
+  
+  #title {
+    display: flex;
+    justify-content: center;
+  }
+
+  #chart {
+    display: flex;
+    justify-content: center;
+  }
+
+  #text {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #scale {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+  }
+
+  #compare { text-align: center; }
+  #sample { display:inline; }
+  #homework { display:inline; }
+
+  .square {
+    width: 10px;
+    height: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
 </style>
 <body>
@@ -81,6 +114,37 @@
 <script src="https://d3js.org/queue.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v1.min.js"></script>
 <script src="d3-tip.js"></script>
+
+    <h3 id="title">境外移入分佈圖之改良</h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="compare">
+        <div id="sample"></div>
+        <div id="homework">
+            <div id="chart"></div>
+            <div id="scale">
+                <div>Population：</div>
+                <div id="1" class="square" style="background-color: rgb(255, 255, 212);"></div>
+                <div>0 ~ 1</div>
+                <div id="10" class="square" style="background-color: rgb(254, 217, 142);"></div>
+                <div>1 ~ 10</div>
+                <div id="100" class="square" style="background-color: rgb(254, 153, 41);"></div>
+                <div>10 ~ 100</div>
+                <div id="1000" class="square" style="background-color: rgb(217, 95, 14);"></div>
+                <div>100 ~ 1000</div>
+                <div id="3000" class="square" style="background-color: rgb(153, 52, 4);"></div>
+                <div>1000 ~ 3000</div>
+            </div>
+        </div>
+    </div>
+    <div id="text">
+        <h4>設計選擇與過程考量</h4>
+        <br>
+        <p></p>
+    </div>
+
 <script>
 var format = d3.format(",");
 
@@ -102,7 +166,7 @@ var color = d3.scaleThreshold()
 
 var path = d3.geoPath();
 
-var svg = d3.select("body")
+var svg = d3.select("#chart")
             .append("svg")
             .attr("width", width)
             .attr("height", height)
